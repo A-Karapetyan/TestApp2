@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('@fontsource/roboto');
+h3, h2, h1, span, i, a, button {
+    color: #414840;
+    font-style: Medium;
+    line-height: 27px;
+    line-height: 100%;
+    letter-spacing: 10%;
+}
+
+
+a, button {
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button {
+    background-color: transparent;
+    padding: 8px;
+    border: 2px #414840 solid;
+}
+
+html, body {
+    font-family: 'roboto';
+}
